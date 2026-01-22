@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Resources\app-icon.ico</ApplicationIcon>
+    
+    <!-- Version Information -->
+    <AssemblyVersion>2.0.2.0</AssemblyVersion>
+    <FileVersion>2.0.2.0</FileVersion>
+    <Version>2.0.2</Version>
+    <AssemblyTitle>KoClip CS</AssemblyTitle>
+    <AssemblyDescription>クリップボード画像保存ツール</AssemblyDescription>
+    <AssemblyCompany>tikomo software</AssemblyCompany>
+    <AssemblyProduct>KoClip CS</AssemblyProduct>
+    <AssemblyCopyright>Copyright © 2026 tikomo software</AssemblyCopyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\app-icon.ico" />
+    <EmbeddedResource Include="Resources\HASAMI1.ICO" />
+    <EmbeddedResource Include="Resources\HASAMI2.ICO" />
+    <EmbeddedResource Include="Resources\A5_08261.WAV" />
+  </ItemGroup>
+
+</Project>
