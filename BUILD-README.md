@@ -162,7 +162,8 @@ GitHub ActionsなどのCI/CDパイプラインで使用する場合：
 
 ## 📞 サポート
 
-ビルドスクリプトに関する問題や改善提案がある場合は、GitHubのIssuesページでお知らせください。
+- **E-Mail**: tikomo@gmail.com
+- **HP**: https://tikomosoftware.github.io
 
 ---
 
